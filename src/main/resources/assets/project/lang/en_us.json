@@ -1,4 +1,6 @@
 {
   "item.project.aluminum_ingot": "Aluminum ingot",
-  "item.project.thallium": "Thallium"
+  "item.project.thallium": "Thallium",
+
+  "itemGroup.carrot": "Romaxa territory"
 }

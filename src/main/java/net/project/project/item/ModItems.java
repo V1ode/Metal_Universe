@@ -14,10 +14,10 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, Project.MOD_ID);
 
     public static final RegistryObject<Item> Aluminum_ingot = Items.register("aluminum_ingot",
-        () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+        () -> new Item(new Item.Properties().group(ModItemGroup.CARROT)));
 
     public static final RegistryObject<Item> Thallium = Items.register("thallium",
-            () -> new Item(new Item.Properties().group(ItemGroup.FOOD)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.CARROT)));
 
     public static void register(IEventBus eventBus) {
         Items.register(eventBus);

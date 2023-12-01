@@ -1,4 +1,6 @@
 {
   "item.project.aluminum_ingot": "Алюминиевый слиток",
-  "item.project.thallium": "Таллий"
+  "item.project.thallium": "Таллий",
+
+  "itemGroup.carrot": "Ромины разработки"
 }
