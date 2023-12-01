@@ -17,7 +17,7 @@ public class ModItems {
         () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
 
     public static final RegistryObject<Item> Thallium = Items.register("thallium",
-        () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+            () -> new Item(new Item.Properties().group(ItemGroup.FOOD)));
 
     public static void register(IEventBus eventBus) {
         Items.register(eventBus);
