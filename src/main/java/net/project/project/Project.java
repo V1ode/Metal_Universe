@@ -12,6 +12,7 @@ import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.project.project.block.ModBlocks;
 import net.project.project.item.ModItems;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -32,6 +33,8 @@ public class Project
         eventBus.addListener(this::setup);
 
         ModItems.register(eventBus);
+
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::enqueueIMC);
 

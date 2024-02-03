@@ -1,3 +1,8 @@
 {
-  "item.project.aluminum_ingot": "Алюминиевый слиток"
+  "item.project.aluminum_ingot": "Алюминиевый слиток",
+  "item.project.iron_ware": "Железный провод",
+
+  "block.project.redium": "Редиум",
+
+  "itemGroup.IRON_BLOCK": "Провода"
 }
