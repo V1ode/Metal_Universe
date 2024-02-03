@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-02-03 10:48:52 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2023-11-25 20:26:34 +0300"
@@ -14,6 +20,12 @@
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2023-11-25 20:26:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_red_flower": "2024-02-03 11:08:27 +0300"
     },
     "done": true
   },
@@ -65,6 +77,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_blue_flower": "2024-02-03 11:08:28 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2023-11-25 20:26:34 +0300"
@@ -73,7 +91,12 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:jungle_hills": "2023-11-25 11:54:30 +0300"
+      "minecraft:jungle_edge": "2024-02-03 08:57:13 +0300",
+      "minecraft:jungle": "2024-02-03 08:56:56 +0300",
+      "minecraft:birch_forest": "2024-02-03 11:09:12 +0300",
+      "minecraft:jungle_hills": "2023-11-25 11:54:30 +0300",
+      "minecraft:river": "2024-02-03 11:09:11 +0300",
+      "minecraft:plains": "2024-02-03 08:57:14 +0300"
     },
     "done": false
   },
@@ -113,15 +136,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-02-03 11:08:36 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_iron_ingot": "2023-11-25 20:26:34 +0300"
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_red_flower": "2024-02-03 11:08:25 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_shovel": {
     "criteria": {
       "has_iron_ingot": "2023-11-25 20:26:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_red_flower": "2024-02-03 11:08:30 +0300"
     },
     "done": true
   },
@@ -158,6 +199,24 @@
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2023-11-25 20:26:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-02-03 11:39:35 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_yellow_flower": "2024-02-03 11:08:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-02-03 11:08:30 +0300"
     },
     "done": true
   },
