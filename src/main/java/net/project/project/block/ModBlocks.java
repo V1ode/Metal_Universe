@@ -27,7 +27,7 @@ public class ModBlocks extends Blocks {
             () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
                     .hardnessAndResistance(2).sound(SoundType.STONE).setLightLevel(value -> 6)));
 
-    public static final RegistryObject<Block> IRON_WIRE = registerBlock("iron_ware",
+    public static final RegistryObject<Block> IRON_WIRE = registerBlock("iron_wire",
             () -> new Block(AbstractBlock.Properties.create(Material.WOOD)
                     .notSolid().sound(SoundType.WOOD)));
 

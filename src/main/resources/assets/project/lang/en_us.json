@@ -1,8 +1,8 @@
 {
   "item.project.aluminum_ingot": "Aluminum ingot",
-  "item.project.iron_ware": "Iron ware",
 
   "block.project.redium": "Redium",
+  "block.project.iron_wire": "Iron wire",
 
   "itemGroup.IRON_BLOCK": "Wires"
 }
